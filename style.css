@@ -1,0 +1,149 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+a{
+
+    text-decoration: none;
+
+}
+
+img {
+
+    max-width: 100%;
+
+}
+
+
+.ms_side {
+
+    background-color: #0f263d;
+    width: 80px;
+
+}
+
+
+.ms_topbody {
+
+    background-color:#1b72e8;
+
+}
+
+/* nav  */
+
+.ms_logo_container {
+
+    width: 30px;
+
+}
+
+
+.none {
+
+    display: none;
+
+}
+
+/* sidebar  */
+
+.ms_text_margin {
+
+    margin-left: 10px ;
+    font-size: 0.7rem;
+
+}
+
+.ms_fixed_bot {
+
+    position: absolute;
+    bottom: 0;
+
+}
+/* main cont  */
+
+.ms_main_container {
+
+    height: calc(100vh - 46px);
+    overflow: auto;
+
+} 
+
+.ms_height{
+
+    height: calc(100vh - 58.5px);
+    overflow: hidden;
+
+}
+
+.ms_button {
+
+    background-color: #165bba;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:0.8rem;
+}
+
+
+/* bs mod  */
+form .input-group-text {
+
+    background-color: white;
+    border: 0px solid #ced4da;
+    border-radius: 0 ;
+    background-color: #e5e5e5;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+  }
+
+  .form-control {
+    border: none;
+    border-radius: 0;
+    background-color: #e5e5e5;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+  }
+
+  .ms_input-group-text {
+    background-color: #f8f9fa;
+    border: none;
+    color: #ff8f00;
+  }
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .navbar-nav {
+
+    margin-left: 10px;
+
+  }
+
+  @media all and (min-width: 990px) {
+
+    .none {
+
+        display: block;
+
+    }
+
+    .ms_logo_container {
+
+        display: none;
+
+    }
+
+    .ms_side {
+
+        width: 120px;
+    
+    }
+  }
